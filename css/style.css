@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+#wrapper {
+    background-position: center center;
+    display: block;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+}
+
+#body-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#formValue {
+    padding-bottom:10px ;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#formInput {
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.page-footer {
+    background-color: rgba(57, 115, 119, 0.384);
+    width: 100%;
+}
+
+h3 {
+    font-size: medium;
+}
