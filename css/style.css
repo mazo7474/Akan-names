@@ -24,15 +24,23 @@ body {
 }
 
 #formValue {
-    padding-bottom:10px ;
+    padding-bottom: 20px;
+    padding: 20px;
     width: 500px;
     display: flex;
     flex-direction: column;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Quattrocento',serif;
 }
 
 #formInput {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
     padding-top: 10px;
     margin-top: 5px;
+
 }
 
 .page-footer {
@@ -40,6 +48,17 @@ body {
     width: 100%;
 }
 
-h3 {
+h2 {
     font-size: medium;
 }
+
+#formValue button {
+    font-weight: 400;
+    font-size: 18px;
+    flex-direction: column;
+    color:rgb(24, 145, 24);
+    padding: 10px;
+
+
+}
+
