@@ -9,21 +9,17 @@ const genderInput = document.querySelector("[name = 'gender']");
 const submitButton = document.getElementById("submit")
 //add onChange event listeners
 centuryInput.querySelector(
-    "formValue",
+    "#formValue",
     (e) =>(FormData.century = e.target.value)
 );
-yearInput.querySelector("formValue", (e) => (FormData.year = e.target.value));
-monthInput.querySelector(
-    "formValue",
-    (e) =>(FormData.month = e.target.value)
-);
-dayInput.querySelector("formValue", (e) => (FormData.day= e.target.value));
-genderInput.querySelector(
-    "formValue",
-    (e) => (FormData.gender =e.target.value)
-);
+yearInput.querySelector("#formValue", (e) => (FormData.year = e.target.value));
+monthInput.querySelector("formValue", (e) => (FormData.month = e.target.value));
 
-submitButton.querySelector("formValue", () => {
+dayInput.querySelector("#formValue", (e) => (FormData.day= e.target.value));
+genderInput.querySelector("#formValue", (e) => (FormData.gender =e.target.value));
+
+
+submitButton.querySelector("#formValue", () => {
     console.log(FormData);
     console.log(getDayOfTheWeek(FormData));
 });
