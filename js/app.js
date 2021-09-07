@@ -15,8 +15,8 @@ centuryInput.querySelector(
 yearInput.querySelector("#formValue", (e) => (FormData.year = e.target.value));
 monthInput.querySelector("formValue", (e) => (FormData.month = e.target.value));
 
-dayInput.querySelector("#formValue", (e) => (FormData.day= e.target.value));
-genderInput.querySelector("#formValue", (e) => (FormData.gender =e.target.value));
+dayInput.querySelector("#formValue", (e) => (FormData.day = e.target.value));
+genderInput.querySelector("#formValue", (e) => (FormData.gender = e.target.value));
 
 
 submitButton.querySelector("#formValue", () => {
