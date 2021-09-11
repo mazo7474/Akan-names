@@ -8,6 +8,9 @@ mazo7474
 ## Description
   This project takes users birthday and calculates the day of week they were born depending on their Akan Names.
   
+##Live links
+  https://mazo7474.github.io/Akan-names/
+  
 ## Tecnologies Used
 * HTML
 * CSS
